@@ -1,3 +1,11 @@
+-- Criação do banco de dados
+CREATE DATABASE NEXUS;
+GO
+
+-- Seleção do banco de dados para uso
+USE NEXUS;
+GO
+
 CREATE TABLE users (
     user_id INT IDENTITY(1,1) PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
